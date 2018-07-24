@@ -1,6 +1,5 @@
 package github.zebajholmes.shp2df
 
-import github.zebajholmes.shp2df.{DataFrameMaker, ParsedShapefile, SparkSessionWrapper}
 import org.scalatest.FunSpec
 
 class DataFrameMakerTest extends FunSpec with SparkSessionWrapper {

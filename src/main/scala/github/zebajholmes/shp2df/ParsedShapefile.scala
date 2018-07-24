@@ -31,14 +31,4 @@ class ParsedShapefile (inputSHP: String) {
 
   val df: DataFrame = DataFrameMaker.makeDF(this)
 
-/*
-  val names2Types: Map[Column, DataType] = { var x = scala.collection.mutable.Map[Column, DataType]()
-    for ((k, v) <- (fieldList zip typeList).toMap) {
-      if (v == "long") x += (col(k) -> LongType)
-      else x += (col(k) -> StringType)
-    }
-    x.toMap
-  }
-*/
-
 }

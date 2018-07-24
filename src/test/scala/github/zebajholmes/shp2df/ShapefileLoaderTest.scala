@@ -1,6 +1,5 @@
 package github.zebajholmes.shp2df
 
-import github.zebajholmes.shp2df.ShapefileLoader
 import org.geotools.feature.FeatureCollection
 import org.opengis.feature.simple.{SimpleFeature, SimpleFeatureType}
 import org.scalatest.FunSpec
