@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+<fileIdentifier>
+<gco:CharacterString>1477423524194r5041795931962211</gco:CharacterString>
+</fileIdentifier>
+<language>
+<LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+</language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<hierarchyLevel>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</hierarchyLevel>
+<contact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>GIS Database Administrator</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>VT Center for Geographic Information</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>802/882-3002</gco:CharacterString>
+</voice>
+<voice>
+<gco:CharacterString>None</gco:CharacterString>
+</voice>
+<facsimile>
+<gco:CharacterString>802/828-3383</gco:CharacterString>
+</facsimile>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>1 National Life Dr., Davis Building, 6th Floor</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Montpelier</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>VT</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>05620-0501</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</contact>
+<dateStamp>
+<gco:Date>1990-01-01</gco:Date>
+</dateStamp>
+<metadataStandardName>
+<gco:CharacterString>NAP - Metadata</gco:CharacterString>
+</metadataStandardName>
+<metadataStandardVersion>
+<gco:CharacterString>1.2</gco:CharacterString>
+</metadataStandardVersion>
+<referenceSystemInfo>
+<MD_ReferenceSystem>
+<referenceSystemIdentifier>
+<RS_Identifier>
+<code>
+<gco:CharacterString>32145</gco:CharacterString>
+</code>
+<codeSpace>
+<gco:CharacterString>EPSG</gco:CharacterString>
+</codeSpace>
+</RS_Identifier>
+</referenceSystemIdentifier>
+</MD_ReferenceSystem>
+</referenceSystemInfo>
+<identificationInfo>
+<MD_DataIdentification>
+<citation>
+<CI_Citation>
+<title>
+<gco:CharacterString>UtilityTransmit_DLGMTT</gco:CharacterString>
+</title>
+<date>
+<CI_Date>
+<date>
+<gco:Date>1985-01-01</gco:Date>
+</date>
+<dateType>
+<CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+</dateType>
+</CI_Date>
+</date>
+<edition>
+<gco:CharacterString>USGS RF 100,000-scale</gco:CharacterString>
+</edition>
+<citedResponsibleParty>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>U.S. Geological(comp.)</gco:CharacterString>
+</organisationName>
+<contactInfo gco:nilReason="missing"/>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</citedResponsibleParty>
+<citedResponsibleParty>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>Reston, Virginia</gco:CharacterString>
+</deliveryPoint>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</citedResponsibleParty>
+<presentationForm>
+<CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+</presentationForm>
+<series>
+<CI_Series>
+<name>
+<gco:CharacterString>DLG</gco:CharacterString>
+</name>
+<issueIdentification>
+<gco:CharacterString>USGS RF 100,000 scale</gco:CharacterString>
+</issueIdentification>
+</CI_Series>
+</series>
+<otherCitationDetails>
+<gco:CharacterString>Tile Structure - STATE</gco:CharacterString>
+</otherCitationDetails>
+</CI_Citation>
+</citation>
+<abstract>
+<gco:CharacterString>(Link to Metadata) This datalayer is comprised of Miscellaineous Transmission Lines. Digital line graph (DLG) data are digital representations of cartographic information. DLG's of map features are converted to digital form from maps and related sources. Intermediate-scale DLG data are derived from USGS 100,000-scale 30- by 60-minute quadrangle maps. If these maps are not available, Bureau of Land Management 100,000 are used. (1) Public Land Survey System; (2) boundaries (3) transportation; (4) hydrography; and (5) hypsography. All DLG data distributed by the USGS are DLG - Level 3 (DLG-3), which means the data contain a full range of attribute codes, have full topological structuring, and have passed certain quality-control checks. VCGI currently offers VGIS users the following DLG datalayers; WaterHydro_DLGLAKES - extracted from WaterHydro_DLGSW (4). UtilityTransmit_DLGMTT - DLG miscellaineous Transmisson Lines (1). TransRoad_DLGRD - Roads (3). TransRail_DLGRR - Railroads (3). WaterHydro_DLGSW - DLG surface waters (4). BoundaryTile_DLGTILE - Quadrangle map boundaries (1).</gco:CharacterString>
+</abstract>
+<purpose>
+<gco:CharacterString>DLG's depict information about geographic features on or near the surface of the Earth, terrain, and political and administrative units. These data were collected as part of the National Mapping Program.</gco:CharacterString>
+</purpose>
+<status>
+<MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="underDevelopment" codeSpace="ISOTC211/19115">underDevelopment</MD_ProgressCode>
+</status>
+<resourceMaintenance>
+<MD_MaintenanceInformation>
+<maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular" codeSpace="ISOTC211/19115">irregular</MD_MaintenanceFrequencyCode>
+</maintenanceAndUpdateFrequency>
+</MD_MaintenanceInformation>
+</resourceMaintenance>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Vermont</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>US</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+<thesaurusName>
+<CI_Citation>
+<title>
+<gco:CharacterString>Place_Keyword_Thesaurus</gco:CharacterString>
+</title>
+<date gco:nilReason="missing"/>
+<citedResponsibleParty gco:nilReason="missing"/>
+</CI_Citation>
+</thesaurusName>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Vermont</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>US</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+<thesaurusName>
+<CI_Citation>
+<title>
+<gco:CharacterString>Place_Keyword_Thesaurus</gco:CharacterString>
+</title>
+<date gco:nilReason="missing"/>
+<citedResponsibleParty gco:nilReason="missing"/>
+</CI_Citation>
+</thesaurusName>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>FIPS codes for states covered</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+<thesaurusName>
+<CI_Citation>
+<title>
+<gco:CharacterString>Place_Keyword_Thesaurus</gco:CharacterString>
+</title>
+<date gco:nilReason="missing"/>
+<citedResponsibleParty gco:nilReason="missing"/>
+</CI_Citation>
+</thesaurusName>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>utilitiesCommunication</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+<thesaurusName>
+<CI_Citation>
+<title>
+<gco:CharacterString>ISO 19115 Topic Category</gco:CharacterString>
+</title>
+<date gco:nilReason="missing"/>
+<citedResponsibleParty gco:nilReason="missing"/>
+</CI_Citation>
+</thesaurusName>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>U.S. Public Land Survey System</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Transmission Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electric Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Power Lines</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Electricity</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>digital line graph</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>DLG</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>hypsography</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<resourceConstraints>
+<MD_Constraints>
+<useLimitation>
+<gco:CharacterString>VCGI and the State of VT make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data, service, or application.</gco:CharacterString>
+</useLimitation>
+</MD_Constraints>
+</resourceConstraints>
+<resourceConstraints>
+<MD_LegalConstraints>
+<useLimitation>
+<gco:CharacterString>VCGI and the State of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.</gco:CharacterString>
+</useLimitation>
+<otherConstraints>
+<gco:CharacterString>VCGI and the State of Vermont make no representations of any kind including,but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.</gco:CharacterString>
+</otherConstraints>
+</MD_LegalConstraints>
+</resourceConstraints>
+<language>
+<LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+</language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<topicCategory>
+<MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
+</topicCategory>
+<extent>
+<EX_Extent>
+<geographicElement>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>
+<gco:Decimal>-73.454162</gco:Decimal>
+</westBoundLongitude>
+<eastBoundLongitude>
+<gco:Decimal>-71.465281</gco:Decimal>
+</eastBoundLongitude>
+<southBoundLatitude>
+<gco:Decimal>42.722789</gco:Decimal>
+</southBoundLatitude>
+<northBoundLatitude>
+<gco:Decimal>45.018361</gco:Decimal>
+</northBoundLatitude>
+</EX_GeographicBoundingBox>
+</geographicElement>
+</EX_Extent>
+</extent>
+<extent>
+<EX_Extent>
+<description>
+<gco:CharacterString>publication date</gco:CharacterString>
+</description>
+<temporalElement>
+<EX_TemporalExtent>
+<extent>
+<gml:TimePeriod gml:id="N65760">
+<gml:beginPosition>1987-06-19</gml:beginPosition>
+<gml:endPosition indeterminatePosition="unknown"/>
+</gml:TimePeriod>
+</extent>
+</EX_TemporalExtent>
+</temporalElement>
+</EX_Extent>
+</extent>
+</MD_DataIdentification>
+</identificationInfo>
+<distributionInfo>
+<MD_Distribution>
+<distributionFormat>
+<MD_Format>
+<name>
+<gco:CharacterString>SHP</gco:CharacterString>
+</name>
+<version gco:nilReason="missing"/>
+<specification>
+<gco:CharacterString>ESRI Shapefile format (compressed to ZIP format)</gco:CharacterString>
+</specification>
+<fileDecompressionTechnique>
+<gco:CharacterString>ZIP decompression software</gco:CharacterString>
+</fileDecompressionTechnique>
+</MD_Format>
+</distributionFormat>
+<distributor>
+<MD_Distributor>
+<distributorContact>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>VT Center for Geographic Information</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>802/882-3002</gco:CharacterString>
+</voice>
+<voice>
+<gco:CharacterString>None</gco:CharacterString>
+</voice>
+<facsimile>
+<gco:CharacterString>802/828-3383</gco:CharacterString>
+</facsimile>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>1 National Life Dr., Davis Building, 6th Floor</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Montpelier</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>VT</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>05620-0501</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>accd.vcgiinfo@vermont.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+<hoursOfService>
+<gco:CharacterString>9am - 5pm, M-F</gco:CharacterString>
+</hoursOfService>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</distributorContact>
+<distributionOrderProcess>
+<MD_StandardOrderProcess>
+<fees>
+<gco:CharacterString>No charge when downloading from the internet, and when no custom processing is required.</gco:CharacterString>
+</fees>
+<plannedAvailableDateTime>
+<gco:DateTime>2000-10-23T00:00:00</gco:DateTime>
+</plannedAvailableDateTime>
+<orderingInstructions>
+<gco:CharacterString>Send an email describing data request to accd.vcgiinfo@vermont.gov</gco:CharacterString>
+</orderingInstructions>
+<turnaround>
+<gco:CharacterString>About 5 days.</gco:CharacterString>
+</turnaround>
+</MD_StandardOrderProcess>
+</distributionOrderProcess>
+</MD_Distributor>
+</distributor>
+<transferOptions>
+<MD_DigitalTransferOptions>
+<onLine>
+<CI_OnlineResource>
+<linkage>
+<URL>http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/UtilityTransmit_DLGMTT.zip</URL>
+</linkage>
+<protocol gco:nilReason="missing"/>
+<name>
+<gco:CharacterString>Download Pre-packaged Data</gco:CharacterString>
+</name>
+<function>
+<CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115">download</CI_OnLineFunctionCode>
+</function>
+</CI_OnlineResource>
+</onLine>
+</MD_DigitalTransferOptions>
+</transferOptions>
+<transferOptions>
+<MD_DigitalTransferOptions>
+<onLine>
+<CI_OnlineResource>
+<linkage>
+<URL>http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/UtilityTransmit_DLGMTT.zip</URL>
+</linkage>
+<protocol gco:nilReason="missing"/>
+<description>
+<gco:CharacterString>Download from web site.</gco:CharacterString>
+</description>
+</CI_OnlineResource>
+</onLine>
+</MD_DigitalTransferOptions>
+</transferOptions>
+<transferOptions>
+<MD_DigitalTransferOptions>
+<offLine>
+<MD_Medium>
+<name>
+<MD_MediumNameCode codeList="http://www.fgdc.gov/nap/metadata/register/codelists.html#napMD_MediumNameCode" codeListValue="USBFlashDrive" codeSpace="ISOTC211/19139/NAP">USBFlashDrive</MD_MediumNameCode>
+</name>
+</MD_Medium>
+</offLine>
+</MD_DigitalTransferOptions>
+</transferOptions>
+<transferOptions>
+<MD_DigitalTransferOptions/>
+</transferOptions>
+</MD_Distribution>
+</distributionInfo>
+<dataQualityInfo>
+<DQ_DataQuality>
+<scope>
+<DQ_Scope>
+<level>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</level>
+</DQ_Scope>
+</scope>
+<report>
+<DQ_ConceptualConsistency>
+<measureDescription>
+<gco:CharacterString>lines must begin and end at nodes, lines must connect to each other at nodes, lines do not extend through nodes, left and right areas are defined for each line element and are consistent throughout the file, and the lines representing the limits of the file (neatline) are free of gaps. The tests of logical consistency were performed by the USGS PROSYS program. The neatline was generated by connecting the four corners of the digital file, as established during initialization of the digital file. All data outside the enclosed region were ignored and all data crossing these geographically straight lines were clipped at the neatline. Data within a specified tolerance of the neatline were snapped to the neatline. Neatline straightening aligned the digitized edges of the digital data with the generated neatline, that is, with the longitude/latitude lines in geographic coordinates. All internal areas were tested for closure using PROSYS.</gco:CharacterString>
+</measureDescription>
+<result gco:nilReason="missing"/>
+</DQ_ConceptualConsistency>
+</report>
+<report>
+<DQ_CompletenessOmission>
+<measureDescription>
+<gco:CharacterString>Not revised Data completeness reflects the content of the source quadrangle. Features may have been eliminated or generalized on the source graphic, due to scale and legibility constraints. Limited Update This file has undergone limited update digital revision. The file contains only (1) those features that are photoidentifiable on monoscopic source, supplemented with limited ancillary source, and (2) those features, present on the original source quadrangle, that can not be reliably photoidentified but that are not considered particularly prone to change. Standard Update This file has undergone standard update digital revision. The data completeness of this file meets NMD standards for feature content.</gco:CharacterString>
+</measureDescription>
+<result gco:nilReason="missing"/>
+</DQ_CompletenessOmission>
+</report>
+<report>
+<DQ_QuantitativeAttributeAccuracy>
+<measureDescription>
+<gco:CharacterString>Refer to Positional_Accuracy element.</gco:CharacterString>
+</measureDescription>
+<result gco:nilReason="missing"/>
+</DQ_QuantitativeAttributeAccuracy>
+</report>
+<report>
+<DQ_AbsoluteExternalPositionalAccuracy>
+<measureDescription>
+<gco:CharacterString>For Digital Revision Status = Not revised:</gco:CharacterString>
+</measureDescription>
+<result gco:nilReason="missing"/>
+</DQ_AbsoluteExternalPositionalAccuracy>
+</report>
+<report>
+<DQ_AbsoluteExternalPositionalAccuracy>
+<measureDescription>
+<gco:CharacterString>Not revised:</gco:CharacterString>
+</measureDescription>
+<result gco:nilReason="missing"/>
+</DQ_AbsoluteExternalPositionalAccuracy>
+</report>
+<lineage>
+<LI_Lineage>
+<processStep>
+<LI_ProcessStep>
+<description>
+<gco:CharacterString>This Digital Line Graph was digitized from the USGS source quadrangle, by either the National Mapping Division, one of their cooperators, or one of their contractors. The digital data - scanning a stable-based copy of the graphic materials. The scanning process captured the digital data at a scanning resolution of at least 0.001 inches; the resulting raster data were vectorized and then attributed on an interactive editing station. - scanning the paper map. The scanning process captured the digital data at a scanning resolution of at least 0.001 inches; the resulting raster data were vectorized and then attributed on an interactive editing station. - scanning a stable-based copy of the graphic materials. The resulting raster data were then manually digitized and attributed on an interactive editing station. The resolution of the digital data is at least 0.001 inches. - scanning the paper map. The resulting raster data were then manually digitized and attributed on an interactive editing station. The resolution of the digital data is at least 0.001 inches. - manually digitizing from a stable-based copy of the graphic material using a digitizing table to capture the digital data at a resolution of at least 0.001 inches; attribution was performed either as the data were digitized, or on an interactive edit station after the digitizing was completed. - manually digitizing from the paper map using a digitizing table to capture the digital data at a resolution of at least 0.001 inches; attribution was performed either as the data were digitized, or on an interactive edit station after the digitizing was completed. The determination of the DLG production method was based on various criteria, including feature density, feature symbology, and availability of production systems. Four control points corresponding to the four corners of the quadrangle were used for registration during data collection. An eight parameter projective transformation was performed on the coordinates used in the data collection and editing systems to register the digital data to the internal coordinates used in PROSYS, and a four parameter linear transformation was performed from the PROSYS internal coordinates to Universal Transverse Mercator (UTM) grid coordinates. The DLG data were checked for position by one or more of the following - comparing plots of the digital data to the graphic source. - comparing the digital data to the digital raster scan. DLG data classification was checked by at least one of the following processes. - comparing plots of the digital data to the graphic source - comparing the digital data to the digital raster scan.</gco:CharacterString>
+</description>
+</LI_ProcessStep>
+</processStep>
+<source>
+<LI_Source>
+<description>
+<gco:CharacterString>spatial and attribute information</gco:CharacterString>
+</description>
+<scaleDenominator>
+<MD_RepresentativeFraction>
+<denominator>
+<gco:Integer>100000</gco:Integer>
+</denominator>
+</MD_RepresentativeFraction>
+</scaleDenominator>
+<sourceCitation>
+<CI_Citation>
+<title>
+<gco:CharacterString>The Topographic Map Names Data Base designation forthe source quadrangle.</gco:CharacterString>
+</title>
+<date gco:nilReason="missing"/>
+<citedResponsibleParty gco:nilReason="missing"/>
+</CI_Citation>
+</sourceCitation>
+<sourceExtent>
+<EX_Extent>
+<description>
+<gco:CharacterString>ground condition</gco:CharacterString>
+</description>
+<temporalElement>
+<EX_TemporalExtent>
+<extent>
+<gml:TimePeriod gml:id="N65857">
+<gml:beginPosition>1987-06-19</gml:beginPosition>
+<gml:endPosition indeterminatePosition="unknown"/>
+</gml:TimePeriod>
+</extent>
+</EX_TemporalExtent>
+</temporalElement>
+</EX_Extent>
+</sourceExtent>
+</LI_Source>
+</source>
+</LI_Lineage>
+</lineage>
+</DQ_DataQuality>
+</dataQualityInfo>
+<metadataConstraints>
+<MD_SecurityConstraints>
+<classification>
+<MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" codeSpace="ISOTC211/19115">unclassified</MD_ClassificationCode>
+</classification>
+<classificationSystem>
+<gco:CharacterString>None</gco:CharacterString>
+</classificationSystem>
+<handlingDescription>
+<gco:CharacterString>None</gco:CharacterString>
+</handlingDescription>
+</MD_SecurityConstraints>
+</metadataConstraints>
+</MD_Metadata>
